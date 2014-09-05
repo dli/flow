@@ -1,0 +1,140 @@
+body {
+    overflow: hidden;
+    background: rgb(230, 230, 230);
+}
+
+#error {
+    display: none;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    color: #333333;
+    font-size: 18px;
+
+    text-align: center;
+
+    margin-top: 20px;
+}
+
+#error a {
+    color: #333333;
+}
+
+#render {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#gui {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    text-align: right;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#count-wrapper {
+    line-height: 0;
+}
+
+#count-wrapper div {
+    display: inline-block;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #333333;
+    font-size: 18px;
+
+    cursor: pointer;
+
+    background-color: #bbbbbb;
+
+    padding: 0 10px;
+
+    border-right: 1px solid #999999;
+
+    line-height: 30px;
+}
+
+#count-wrapper div:last-child {
+    border-right: none;
+}
+
+#speed-wrapper {
+    margin-top: 20px;
+    line-height: 0;
+}
+
+#turbulence-wrapper {
+    margin-top: 20px;
+    line-height: 0;
+}
+
+.slider {
+    width: 200px;
+    height: 25px;
+    background-color: #bbbbbb;
+    display: inline-block;
+    position: relative;
+    cursor: ew-resize;
+}
+
+.label {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    color: #444444;
+    font-size: 18px;
+
+    margin-right: 8px;
+
+    vertical-align: top;
+
+    pointer-events: none;
+
+    line-height: 25px;
+}
+
+#color-wrapper {
+    line-height: 0;
+    position: relative;
+}
+
+#color-label {
+    position: absolute;
+    right: 58px;
+    top: 88px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    color: #444444;
+    font-size: 18px;
+
+    pointer-events: none;
+}
+
+#footer {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #444444;
+    font-size: 18px;
+}
+
+#footer a {
+    text-decoration: underline;
+    color: #444444;
+}
+
+#picker {
+    margin-top: 5px;
+}
